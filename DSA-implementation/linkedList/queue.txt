@@ -1,7 +1,0 @@
-QUEUE
-    --VARIATIONS
-        1.Singly & Doubly linked list.
-        2.Circular & Doubly Circular Linked List.
-        3.skip list. (Use Case: Efficiently performing search operations with a 
-          complexity close to that of balanced trees (used in databases, in-memory stores like Redis).)
-        4.unrolled list (Scenarios where large sequences of elements need to be stored and accessed efficiently)
