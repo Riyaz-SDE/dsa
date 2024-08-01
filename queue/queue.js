@@ -12,24 +12,24 @@ class Queue{
         this.head = 0
         this.tail = 0
     }
-    enqueue(element){
+    enqueue(element){ // add element from queue at tail
         if(element === undefined){
-            return false
+            return false 
         }
         this.queue.push(element)
         this.tail++
     }
-    isEmpty(){
+    isEmpty(){ // the size of queue
         return this.tail - this.head === 0
     }
-    dequeue(){
+    dequeue(){ // remove element from queue at head
         if(this.isEmpty()){
             throw Error('queue is empty')
         }
         this.queue.shift()
         this.head++
     }
-    printAll(){
+    printAll(){ //prints every queue
         console.log(this.queue);
     }
 }
